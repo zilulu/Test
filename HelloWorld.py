@@ -60,3 +60,30 @@ while n > 0:
     s += n
     n -= 1
 print(s)
+dic = {"A": 95, "B": 75, "C": 85}
+print(dic["A"])
+dic["D"] = 60
+dic["E"] = 100
+print(dic)
+print("A" in dic)
+print(dic.get("A"))
+dic.pop("D")
+print(dic)
+s = set()
+s.add(1)
+s.add(2)
+s.add(3)
+print(s)
+s.remove(2)
+print(s)
+
+
+def my_abs(x):
+    if x >= 0:
+        return x
+    else:
+        return -x
+
+
+print(my_abs(3))
+print(my_abs(-3))
